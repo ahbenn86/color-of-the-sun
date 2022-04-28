@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sun-container {
+    z-index: 1;
+    position: absolute;
+}
+
+.sun-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: yellow;
+    z-index: -1;
+    position: relative;
+    margin-top: 13%;
+    margin-left: 13%;
+}
