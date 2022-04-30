@@ -11,32 +11,43 @@ body {
       rgba(28, 210, 255, 0.3)
     ),
     url("../public/cartoon-clouds.jpg");
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  overflow: hidden;
 }
 
-.sun-container {
+.container {
+  position: relative;
   height: 100vh;
   width: 100vw;
 }
 
-.sun-rays {
-  z-index: 1;
+.sun-circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(235px);
+  margin-left: 10%;
 }
 
-.sun-circle {
-  transform: translateX(-100%);
+.options-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+  min-width: 400px;
+  background-color: rgba(255, 228, 196, 0.865);
+  transform: translateX(350%);
+  margin-top: 11%;
+  border-radius: 15%;
 }
 
-/* 
-.sun-circle {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: yellow;
-    z-index: -1;
-    position: relative;
-    margin-bottom: 70%;
-} */
+button {
+  cursor: pointer;
+}
