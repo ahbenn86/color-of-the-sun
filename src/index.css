@@ -1,14 +1,36 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom right,
+      hsla(184, 100%, 73%, 0.3),
+      rgba(28, 210, 255, 0.3)
+    ),
+    url("../public/cartoon-clouds.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .sun-container {
-    z-index: 1;
-    position: absolute;
+  height: 100vh;
+  width: 100vw;
 }
 
+.sun-rays {
+  z-index: 1;
+}
+
+.sun-circle {
+  transform: translateX(-100%);
+}
+
+/* 
 .sun-circle {
     width: 500px;
     height: 500px;
@@ -16,6 +38,5 @@
     background-color: yellow;
     z-index: -1;
     position: relative;
-    margin-top: 13%;
-    margin-left: 13%;
-}
+    margin-bottom: 70%;
+} */
