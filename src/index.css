@@ -19,6 +19,12 @@ body {
   overflow: hidden;
 }
 
+h1 {
+text-align: center;
+text-transform: capitalize;
+color: white;
+}
+
 .container {
   position: relative;
   height: 100vh;
@@ -36,18 +42,88 @@ body {
   margin-left: 10%;
 }
 
+.elmo {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50%;
+    margin-top: 10%;
+    
+}
+
+.cookie-monster {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50%;
+    margin-top: 10%;
+    
+}
+
+.big-bird {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50%;
+    margin-top: 10%;
+    
+}
+
 .options-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 400px;
-  min-width: 400px;
+  height: 400px;
+  width: 300px;
   background-color: rgba(255, 228, 196, 0.865);
-  transform: translateX(350%);
+  transform: translateX(450%);
   margin-top: 11%;
   border-radius: 15%;
+  border: 2px solid rgba(0, 0, 0, 0.293);
 }
 
 button {
+    border-radius: 10px;
+    box-shadow: 4px 4px #888888b8;
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+    font-size:larger;
+}
+
+#blue_button {
+  background-color: blue;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#red_button {
+  background-color: red;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#yellow_button {
+  background-color: yellow;
+  color: black;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
   cursor: pointer;
 }
