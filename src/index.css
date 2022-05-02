@@ -19,11 +19,11 @@ body {
   overflow: hidden;
 }
 
-h1 {
+/* h1 {
 text-align: center;
 text-transform: capitalize;
 color: white;
-}
+} */
 
 .container {
   position: relative;
@@ -46,7 +46,7 @@ color: white;
     
     position: absolute;
     left: 0;
-    top: 0;
+    top: 20%;
     margin-left: 50%;
     margin-top: 10%;
     
@@ -55,10 +55,8 @@ color: white;
 .cookie-monster {
     
     position: absolute;
-    left: 0;
-    top: 0;
-    margin-left: 50%;
-    margin-top: 10%;
+    left: 55%;
+    top: 35%;
     
 }
 
@@ -66,10 +64,43 @@ color: white;
     
     position: absolute;
     left: 0;
-    top: 0;
+    top: 5%;
     margin-left: 50%;
     margin-top: 10%;
     
+}
+
+.correct {
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    /* transform: translateX(260%); */
+    z-index: -1;
+}
+
+#red_bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+#yellow_bubble {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+#blue_bubble {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 5%;
+    left: 38%;
 }
 
 .options-container {
@@ -81,9 +112,9 @@ color: white;
   top: 0;
   left: 0;
   height: 400px;
-  width: 300px;
+  width: 250px;
   background-color: rgba(255, 228, 196, 0.865);
-  transform: translateX(450%);
+  margin-left: 80%;
   margin-top: 11%;
   border-radius: 15%;
   border: 2px solid rgba(0, 0, 0, 0.293);
