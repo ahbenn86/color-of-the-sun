@@ -20,6 +20,7 @@ function blueSun() {
     '<img src="../public/cookie-monster.png" class="cookie-monster" id="cookie_monster" alt="cookie monster character">';
   document.getElementById("chat_bubble").innerHTML =
     '<img src="../public/blue-bubble.png" id="blue_bubble">';
+  document.getElementById("street_sign").style.opacity = "0";
 }
 function redSun() {
   document.getElementById("thats-correct").innerHTML = "";
@@ -28,6 +29,7 @@ function redSun() {
     '<img src="../public/elmo.png" class="elmo" id="elmo" alt="elmo character">';
   document.getElementById("chat_bubble").innerHTML =
     '<img src="../public/red-bubble.png" id="red_bubble">';
+  document.getElementById("street_sign").style.opacity = "0";
 }
 function yellowSun() {
   document.getElementById("sun_circle").style.background = "yellow";
@@ -37,4 +39,5 @@ function yellowSun() {
     '<img src="../public/thats-correct.png" alt="#">';
   document.getElementById("chat_bubble").innerHTML =
     '<img src="../public/yellow-bubble.png" id="yellow_bubble">';
+  document.getElementById("street_sign").style.opacity = "0";
 }

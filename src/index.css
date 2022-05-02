@@ -11,19 +11,11 @@ body {
       rgba(28, 210, 255, 0.3)
     ),
     url("../public/cartoon-clouds.jpg");
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
 }
-
-/* h1 {
-text-align: center;
-text-transform: capitalize;
-color: white;
-} */
 
 .container {
   position: relative;
@@ -31,102 +23,89 @@ color: white;
   width: 100vw;
 }
 
+#street_sign {
+    opacity: 1;
+    position: absolute;
+    top: 20%;
+    left: 33.5%;
+}
+
 .sun-circle {
   height: 300px;
   width: 300px;
   border-radius: 50%;
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateY(235px);
-  margin-left: 10%;
+  top: 21%;
+  left: 10%;
 }
 
 .elmo {
-    
-    position: absolute;
-    left: 0;
-    top: 20%;
-    margin-left: 50%;
-    margin-top: 10%;
-    
+  position: absolute;
+  left: 50%;
+  top: 40%;
 }
 
 .cookie-monster {
-    
-    position: absolute;
-    left: 55%;
-    top: 35%;
-    
+  position: absolute;
+  left: 55%;
+  top: 35%;
 }
 
 .big-bird {
-    
-    position: absolute;
-    left: 0;
-    top: 5%;
-    margin-left: 50%;
-    margin-top: 10%;
-    
+  position: absolute;
+  left: 50%;
+  top: 25%;
 }
 
 .correct {
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    left: 60%;
-    /* transform: translateX(260%); */
-    z-index: -1;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 60%;
 }
 
 #red_bubble {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 34%;
-    margin-top: 5%;
+  position: absolute;
+  top: 5%;
+  left: 34%;
 }
 
 #yellow_bubble {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 5%;
-    left: 30%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 5%;
+  left: 30%;
 }
 
 #blue_bubble {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 5%;
-    left: 38%;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 5%;
+  left: 38%;
 }
 
 .options-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  justify-content: space-around;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 17%;
+  left: 80%;
   height: 400px;
   width: 250px;
   background-color: rgba(255, 228, 196, 0.865);
-  margin-left: 80%;
-  margin-top: 11%;
   border-radius: 15%;
   border: 2px solid rgba(0, 0, 0, 0.293);
 }
 
 button {
-    border-radius: 10px;
-    box-shadow: 4px 4px #888888b8;
-    width: 50%;
-    margin: auto;
-    text-transform: uppercase;
-    font-size:larger;
+  border-radius: 10px;
+  box-shadow: 4px 4px #888888b8;
+  width: 50%;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: larger;
 }
 
 #blue_button {
