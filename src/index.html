@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Color of the Sun ☀</title>
-</head>
-<body>
-    <h1>Choose the color of your sun</h1>
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sun-rays">
+        <img src="../public/sun-rays.png" alt="#" />
+        <div class="sun-circle" id="sun_circle"></div>
+      </div>
+      <div class="street-sign" id="street_sign">
+          <img src="../public/street-sign.png" alt="">
+      </div>
+      <div id="character"></div>
+      <div class="options-container">
+        <button class="button" id="red_button">Red</button>
+        <button class="button" id="yellow_button">Yellow</button>
+        <button class="button" id="blue_button">Blue</button>
+      </div>
+      <div class="correct" id="thats-correct"></div>
+      <div class="chat-bubble" id="chat_bubble"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
