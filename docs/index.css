@@ -10,7 +10,7 @@ body {
       hsla(184, 100%, 73%, 0.3),
       rgba(28, 210, 255, 0.3)
     ),
-    url("../public/cartoon-clouds.jpg");
+    url("./public/cartoon-clouds.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
